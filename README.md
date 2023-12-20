@@ -1,4 +1,4 @@
-![Imagem de Capa do Projeto WeBooks Front-End](https://github.com/josewellingtonn/webooks/assets/152819590/63f06979-c756-47b7-a3c1-f564552ce3bc)
+![Imagem de Capa do Projeto WeBooks Front-End](https://github.com/josewellingtonn/webooks/assets/152819590/0200523a-784c-448d-a5bb-76638c2db049)
 
 
 
@@ -20,16 +20,17 @@ O site contém sete seções:
 
 # O projeto está 100% responsivo, abaixo é possível visualizar a versão Desktop:
 
-![Parte 1 - Versão Desktop](https://github.com/josewellingtonn/webooks/assets/152819590/94aa950b-afbb-4390-b7ba-264b9bfdcffe)
-![Parte 2 - Versão Desktop](https://github.com/josewellingtonn/webooks/assets/152819590/2346ab3c-e736-4244-8995-18b25311f397)
-![Parte 3 - Versão Desktop](https://github.com/josewellingtonn/webooks/assets/152819590/0898c0c3-00de-41b6-b67f-fca4feb6d9fb)
+![Parte 1 - Versão Desktop](https://github.com/josewellingtonn/webooks/assets/152819590/f3999c5a-f667-4989-ad14-4408404e58c2)
+![Parte 2 - Versão Desktop](https://github.com/josewellingtonn/webooks/assets/152819590/356badba-1343-4c7a-a83c-e17858d82428)
+![Parte 3 - Versão Desktop](https://github.com/josewellingtonn/webooks/assets/152819590/7e69d9c0-fcf7-4e26-b930-5b6967478d7e)
 
 # Versão Mobile:
 
-![Parte 1 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/1d40501d-ba7c-4324-b8c4-62ce6562ef56)
-![Parte 2 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/e86391c5-d073-4bde-82e3-d1efdebaff6f)
-![Parte 3 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/7dedfc1b-7a33-43ec-b788-0928824d5759)
-![Parte 4 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/220e57c7-dbed-493f-8467-ad0ecaaaac77)
+![Parte 1 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/a56b069b-3c1b-4566-887f-93ad5f947042)
+![Parte 2 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/819d457c-8077-429b-80cc-194ba110e322)
+![Parte 3 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/00303e1a-460c-401b-80dd-cbc607d28b81)
+![Parte 4 - Versão Mobile](https://github.com/josewellingtonn/webooks/assets/152819590/8042930a-7e24-45ce-a828-1dbe9f518d79)
+
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -40,7 +41,7 @@ O site contém sete seções:
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final em funcionamento.]()
+[Veja o projeto final em funcionamento.](https://josewellingtonn.github.io/webooks/)
 
 Neste repositório você tem acesso a todos os arquivos necessários para execução.
 
