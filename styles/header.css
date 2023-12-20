@@ -1,0 +1,193 @@
+.cabecalho {
+    background-color: var(--cor-branco);
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cabecalho__container,
+.cabecalho__container--items {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.cabecalho__container--items {
+    gap: 8px;
+}
+
+.cabecalho__label-menu {
+    padding: 0.5em;
+}
+
+.cabecalho__menu-hamburguer {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url('../assets/Menu.svg');
+    background-repeat: no-repeat;
+}
+
+.cabecalho__lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--cor-branco);
+    width: 70vw;
+    z-index: 2;
+}
+
+.cabecalho__check-menu:checked ~ .cabecalho__lista {
+    display: block;
+}
+
+.cabecalho__check-menu:checked ~ .cabecalho__label-menu {
+    background: var(--degrade-azul);
+    
+}
+
+.cabecalho__check-menu:checked ~ .cabecalho__label-menu > .cabecalho__menu-hamburguer {
+    background-image: url('../assets/MenuAberto.svg');
+}
+
+.cabecalho__lista__item--titulo,
+.cabecalho__lista__item {
+    padding: 1em 2em;
+}
+
+.cabecalho__lista__item--titulo {
+    color: var(--cor-laranja);
+    font-weight: 700;
+}
+
+.cabecalho__lista__item__link {
+    background: var(--degrade-azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cabecalho__empresa-nome,
+.cabecalho__navegacao,
+.cabecalho__container__item__link__texto,
+.cabecalho__check-menu {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho__menu-hamburguer,
+    .cabecalho__container__item--transparente {
+        display: none;
+    }
+
+    .cabecalho__empresa {
+        display: flex;
+        align-items: flex-end;
+        gap: 0.69em;
+    }
+
+    .cabecalho__empresa-nome {
+        display: block;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.87em;
+        font-weight: 400;
+    }
+
+    .cabecalho__empresa-nome--negrito {
+        font-weight: 700;
+    }
+
+    .cabecalho__navegacao {
+        display: block;
+    }
+
+    .cabecalho__navegacao__lista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .cabecalho__navegacao__lista__item {
+        text-transform: uppercase;
+    }
+
+    .cabecalho__navegacao__lista__item__link {
+        text-decoration: none;
+        color: var(--cor-preto);
+    }
+
+    .cabecalho__container--items {
+        gap: 2em;
+    }
+
+    .cabecalho__navegacao__lista__botao {
+        display: none;
+    }
+
+    .cabecalho__botao__categoria {
+        cursor: pointer;
+    }
+
+    .cabecalho__navegacao__lista__botao:checked ~ label > .cabecalho__navegacao__lista__item {
+        background: var(--degrade-azul);
+        color: var(--cor-branco);
+        padding: 1em;
+    }
+
+    .cabecalho__navegacao__lista__botao:checked ~ .cabecalho__lista {
+        display: block;
+        width: auto;
+        left: 38.6%;
+        top: 80%;
+    }
+
+    .cabecalho__navegacao__lista__botao:checked ~ .cabecalho__lista > .lista__item__pc:hover {
+        background: var(--degrade-azul);
+    }
+
+    .cabecalho__navegacao__lista__botao:checked ~ .cabecalho__lista > .lista__item__pc:hover > .cabecalho__lista__item__link {
+        -webkit-text-fill-color: var(--cor-branco);
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+
+    .cabecalho {
+        padding: 1em 5em;
+        gap: 3em;
+    }
+
+    .cabecalho__navegacao {
+        margin-right: auto;
+        margin-top: 0.5em;
+    }
+
+    .cabecalho__navegacao__lista__botao:checked ~ .cabecalho__lista {
+        display: block;
+        width: auto;
+        left: 12.8%;
+        top: 80%;
+    }
+
+    .cabecalho__container__item__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-preto);
+        font-size: 1.25em;
+        gap: 0.25em;
+    }
+
+    .cabecalho__container__item__link__texto {
+        display: block;
+    }
+
+}
